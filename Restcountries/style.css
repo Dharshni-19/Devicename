@@ -1,0 +1,25 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Bootstrap background color */
+    padding-top: 20px;
+}
+
+.container {
+    max-width: 800px; /* Limit container width for better readability */
+    margin: auto; /* Center container horizontally */
+}
+
+/* Styles for the device list */
+#deviceList {
+    margin-top: 20px; /* Add some space above the device list */
+}
+
+.list-group-item {
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color change */
+}
+
+.list-group-item:hover {
+    background-color: #f1f1f1; /* Light gray background on hover */
+}
